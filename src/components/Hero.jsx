@@ -8,12 +8,12 @@ export default function Hero() {
     };
 
     return (
-        <div id="hero" className="hero bg-base-200 min-h-screen relative py-16 sm:py-20">
-            <div className="container hero-content text-center flex-col px-4 sm:px-6">
+        <div id="hero" className="hero bg-base-200 min-h-screen relative py-16 sm:py-20 pb-12">
+            <div className="w-full max-w-screen-md mx-auto text-center flex flex-col px-4 sm:px-6">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
                     Hi! I'm Fajar
                 </h1>
-                <p className="py-4 sm:py-6 text-lg sm:text-xl max-w-xl leading-relaxed">
+                <p className="py-4 sm:py-6 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
                     A creative frontend developer who crafts responsive, clean, and delightful user interfaces for the modern web.
                 </p>
 
@@ -35,7 +35,6 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* Ikon dropdown yang bisa dipencet */}
             <button
                 onClick={scrollToAbout}
                 className="absolute bottom-8 sm:bottom-10 left-1/2 transform -translate-x-1/2 text-primary-focus text-2xl sm:text-3xl animate-bounce cursor-pointer z-10 p-3 rounded-full bg-white/20 hover:bg-white/40 transition-colors duration-300"
