@@ -33,7 +33,7 @@ export default function App() {
   };
 
   return (
-    <div className="bg-base-100 text-base-content">
+    <div className="bg-base-100 text-base-content overflow-x-hidden">
       <Navbar />
 
       <div data-aos="fade-up">
