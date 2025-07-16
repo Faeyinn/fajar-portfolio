@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <div data-aos="fade-down" className="fixed top-2 sm:top-4 left-2 right-2 sm:left-4 sm:right-4 z-50">
-            <div className="navbar bg-white/20 backdrop-blur-md border border-white/30 rounded-xl shadow-lg px-2 sm:px-4 text-gray-800 w-full max-w-6xl mx-auto min-h-[60px]">
+            <div className="navbar bg-white/20 backdrop-blur-md border border-white/30 rounded-xl shadow-lg px-3 sm:px-4 text-gray-800 w-full max-w-6xl mx-auto min-h-[56px] sm:min-h-[64px]">
 
                 {/* Kiri: Logo */}
                 <div className="flex-1 min-w-0">
