@@ -12,7 +12,7 @@ export default function Navbar() {
                 <div className="hidden lg:flex space-x-4">
                     <a href="#hero" className="btn btn-ghost">Home</a>
                     <a href="#about" className="btn btn-ghost">About</a>
-                    <a className="btn btn-ghost">Contact</a>
+                    <a href="#contact" className="btn btn-ghost">Contact</a>
                 </div>
 
                 {/* Menu Mobile (Dropdown) */}
@@ -28,7 +28,7 @@ export default function Navbar() {
                         className="menu dropdown-content mt-3 z-[1] p-2 shadow-xl bg-white/20 backdrop-blur-md rounded-box w-52 border border-white/30">
                         <li><a href="#hero">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
