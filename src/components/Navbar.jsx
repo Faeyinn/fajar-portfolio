@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
-        <div data-aos="fade-down" className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-5xl z-50">
-            <div className="navbar bg-white/20 backdrop-blur-md border border-white/30 rounded-xl shadow-lg px-4 text-gray-800">
+        <div data-aos="fade-down" className="fixed top-4 left-0 right-0 z-50"> {/* Mengubah width dan positioning */}
+            <div className="navbar bg-white/20 backdrop-blur-md border border-white/30 rounded-xl shadow-lg px-4 text-gray-800 w-[90%] max-w-5xl mx-auto"> {/* Menambahkan w-[90%], max-w-5xl, dan mx-auto di sini */}
 
                 {/* Kiri: Logo */}
                 <div className="flex-1">
