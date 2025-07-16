@@ -7,7 +7,7 @@ export default function About() {
                 <img
                     src={pic}
                     data-aos="fade-left"
-                    className="max-w-sm rounded-lg shadow-2xl"
+                    className="w-full max-w-xs sm:max-w-sm rounded-lg shadow-2xl"
                     alt="Fajar Profile"
                 />
                 <div className="max-w-xl">
