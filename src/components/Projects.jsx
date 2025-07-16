@@ -1,8 +1,11 @@
+import porto from '../assets/porto.png';
+import comingsoon from '../assets/comingsoon.jpeg';
+
 const projects = [
     {
         title: 'Personal Portfolio',
         description: 'A modern responsive portfolio built with React and Tailwind CSS.',
-        image: 'https://source.unsplash.com/featured/400x300?website',
+        image: porto,
         tech: ['React', 'Tailwind', 'DaisyUI'],
         demo: '#',
         code: '#'
@@ -10,7 +13,7 @@ const projects = [
     {
         title: 'Todo App',
         description: 'Simple todo list app with local storage and clean UI.',
-        image: 'https://source.unsplash.com/featured/400x300?app',
+        image: comingsoon,
         tech: ['HTML', 'CSS', 'JavaScript'],
         demo: '#',
         code: '#'
