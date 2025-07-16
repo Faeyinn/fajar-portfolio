@@ -20,6 +20,7 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-3 lg:space-x-5">
           <a href="#hero" className="btn btn-ghost btn-sm lg:btn-md">Home</a>
           <a href="#about" className="btn btn-ghost btn-sm lg:btn-md">About</a>
+          <a href="#projects" className="btn btn-ghost btn-sm lg:btn-md">Projects</a>
           <a href="#contact" className="btn btn-ghost btn-sm lg:btn-md">Contact</a>
         </div>
 
@@ -47,6 +48,7 @@ export default function Navbar() {
           >
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>

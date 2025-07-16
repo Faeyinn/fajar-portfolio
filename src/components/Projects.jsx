@@ -1,23 +1,32 @@
 import porto from '../assets/porto.png';
-import comingsoon from '../assets/comingsoon.jpeg';
+import capsneo from '../assets/capsneo.png';
+import renyhijab from '../assets/renyhijab.png';
 
 const projects = [
-    {
-        title: 'Personal Portfolio',
-        description: 'A modern responsive portfolio built with React and Tailwind CSS.',
-        image: porto,
-        tech: ['React', 'Tailwind', 'DaisyUI'],
-        demo: '#',
-        code: '#'
-    },
-    {
-        title: 'Todo App',
-        description: 'Simple todo list app with local storage and clean UI.',
-        image: comingsoon,
-        tech: ['HTML', 'CSS', 'JavaScript'],
-        demo: '#',
-        code: '#'
-    }
+  {
+    title: 'Personal Portfolio',
+    description:
+      'A sleek and modern developer portfolio built with React and Tailwind CSS, featuring smooth scroll animations, responsive design, and clean UI. Showcases projects, contact info, and frontend skill highlights using AOS and DaisyUI components.',
+    image: porto,
+    tech: ['React', 'Tailwind', 'DaisyUI', 'AOS'],
+    demo: 'https://fajar-portfolio.netlify.app/',
+  },
+  {
+    title: 'Simple Scholarship Website',
+    description:
+      'A scholarship listing website that helps students discover and apply for opportunities. Built with React and Tailwind CSS, it includes role-based navigation (user/admin), bookmark feature, and a clean responsive UI for easy access on any device.',
+    image: capsneo,
+    tech: ['React', 'Tailwind', 'DaisyUI'],
+    demo: 'https://capstone-neo-fajar.netlify.app/',
+  },
+  {
+    title: 'Reny Hijab Transaction Management',
+    description:
+      'An efficient transaction and inventory management system developed using native PHP, tailored for a hijab retail store. Features include admin login, CRUD for products, order tracking, and daily transaction history – all optimized without any framework.',
+    image: renyhijab,
+    tech: ['PHP native'],
+    demo: '/renyhijab',
+  }
 ];
 
 export default function Projects() {
@@ -40,7 +49,6 @@ export default function Projects() {
                                 </div>
                                 <div className="flex gap-3">
                                     <a href={project.demo} target="_blank" className="btn btn-sm btn-primary">Live Demo</a>
-                                    <a href={project.code} target="_blank" className="btn btn-sm btn-outline">Source Code</a>
                                 </div>
                             </div>
                         </div>

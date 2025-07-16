@@ -1,16 +1,13 @@
-// App.jsx
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaArrowUp } from 'react-icons/fa';
+import { Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import PortoPage from './pages/PortoPage'
+import NotFound from './pages/NotFound'
 
 export default function App() {
   const [showScroll, setShowScroll] = useState(false);
@@ -36,25 +33,10 @@ export default function App() {
     <div className="bg-base-100 text-base-content overflow-x-hidden">
       <Navbar />
 
-      <div data-aos="fade-up">
-        <Hero />
-      </div>
-
-      <div data-aos="fade-up">
-        <About />
-      </div>
-
-      <div data-aos="fade-up">
-        <Skills />
-      </div>
-
-      <div data-aos="fade-up">
-        <Projects />
-      </div>
-
-      <div data-aos="fade-up">
-        <Contact />
-      </div>
+      <Routes>
+        <Route path="/" element={<PortoPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
 
       <Footer />
 
