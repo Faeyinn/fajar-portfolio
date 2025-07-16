@@ -8,8 +8,8 @@ export default function Hero() {
     };
 
     return (
-        <div id="hero" className="min-h-screen flex items-center justify-center bg-base-200 text-primary relative pt-20 sm:pt-24">
-            <div className="text-center flex-col px-4 sm:px-6">
+        <div id="hero" className="hero bg-base-200 min-h-screen relative py-16 sm:py-20">
+            <div className="container hero-content text-center flex-col px-4 sm:px-6">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
                     Hi! I'm Fajar
                 </h1>
