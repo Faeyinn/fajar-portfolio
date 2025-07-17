@@ -17,7 +17,7 @@ const projects = [
       'A scholarship listing website that helps students discover and apply for opportunities. Built with React and Tailwind CSS, it includes role-based navigation (user/admin), bookmark feature, and a clean responsive UI for easy access on any device.',
     image: capsneo,
     tech: ['React', 'Tailwind', 'DaisyUI'],
-    demo: 'https://capstone-neo-fajar.netlify.app/',
+    demo: 'https://scholarmatch-fr.netlify.app/',
   },
   {
     title: 'Reny Hijab Transaction Management',
