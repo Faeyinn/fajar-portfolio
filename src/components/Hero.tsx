@@ -1,4 +1,5 @@
 import { FaArrowDown } from 'react-icons/fa';
+import TextType from './anim/TextType';
 
 export default function Hero() {
   const scrollToAbout = () => {
@@ -12,7 +13,14 @@ export default function Hero() {
     >
       <div className="max-w-screen-md w-full text-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-primary leading-tight mb-4">
-          Hi! I'm Fajar
+          Hi! I'm
+          <TextType
+            text={[" Fajar !", " a Frontend Developer"]}
+            typingSpeed={75}
+            pauseDuration={1500}
+            showCursor={true}
+            cursorCharacter="|"
+          />
         </h1>
         <p className="text-base sm:text-lg text-primary leading-relaxed max-w-2xl mx-auto mb-8">
           A creative frontend developer who crafts responsive, clean, and delightful user interfaces for the modern web.
